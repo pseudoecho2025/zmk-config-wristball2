@@ -89,22 +89,22 @@
 
         default_layer {
             bindings = <
-&lt 5 ESC  &mkp MB1       &mkp MB2
-&mkp MB3   &pmw_rotation  &mo 6
+&lt 5 ESC  &mkp MB1       &kp SPACE
+&mkp MB2   &pmw_rotation  &mo 6
             >;
         };
 
         FUNCTION {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&trans  &mkp MB1  &trans
+&trans  &trans    &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans  &trans  &trans
-&trans  &trans  &trans
+&trans  &mkp MB1  &trans
+&trans  &trans    &trans
             >;
         };
 
