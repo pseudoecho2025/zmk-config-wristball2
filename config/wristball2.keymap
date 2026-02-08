@@ -96,8 +96,8 @@
 
         FUNCTION {
             bindings = <
-&trans  &mkp MB1  &mkp MB2
-&trans  &trans    &trans
+&lt 0 A  &mkp MB1  &mkp MB2
+&trans   &trans    &trans
             >;
         };
 
