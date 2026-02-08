@@ -82,6 +82,15 @@
             #binding-cells = <2>;
             tapping-term-ms = <200>;
         };
+
+        mod_mkp1: mod_mkp1 {
+            compatible = "zmk,behavior-hold-tap";
+            label = "MOD_MKP1";
+            bindings = <&kp>, <&mkp>;
+
+            #binding-cells = <2>;
+            tapping-term-ms = <170>;
+        };
     };
 
     keymap {
@@ -89,22 +98,22 @@
 
         default_layer {
             bindings = <
-&lt 5 ESC  &mkp MB1       &kp SPACE
-&mkp MB2   &pmw_rotation  &mo 6
+&lt 1 ESC             &mkp MB1       &mt LCTRL SPACE
+&mod_mkp1 LSHIFT MB2  &pmw_rotation  &mo 6
             >;
         };
 
         FUNCTION {
             bindings = <
-&lt 0 A  &mkp MB1  &mkp MB2
+&lt 0 A  &mkp MB1  &mod_mkp1 LCTRL MB2
 &trans   &trans    &trans
             >;
         };
 
         NUM {
             bindings = <
-&trans  &mkp MB1  &trans
-&trans  &trans    &trans
+&trans        &mkp MB1  &trans
+&lt 0 ESCAPE  &trans    &trans
             >;
         };
 
