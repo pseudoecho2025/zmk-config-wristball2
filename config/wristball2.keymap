@@ -98,7 +98,7 @@
 
         default_layer {
             bindings = <
-&lt 5 ESC             &mkp MB1       &mt LCTRL SPACE
+&lt 5 ESC             &mkp MB1       &kp SPACE
 &mod_mkp1 LSHIFT MB2  &pmw_rotation  &mo 6
             >;
         };
