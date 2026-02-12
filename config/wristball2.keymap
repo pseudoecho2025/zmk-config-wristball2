@@ -116,10 +116,10 @@
             tapping-term-ms = <170>;
         };
 
-        mod_mo_lt: mod_mo_lt {
+        mod_mo_lo: mod_mo_lo {
             compatible = "zmk,behavior-hold-tap";
-            label = "MOD_MO_LT";
-            bindings = <&mo>, <&lt>;
+            label = "MOD_MO_LO";
+            bindings = <&mo>, <&to>;
 
             #binding-cells = <2>;
             tapping-term-ms = <170>;
@@ -131,7 +131,7 @@
 
         default_layer {
             bindings = <
-&mod_mo_lt 5 1     &mkp MB1       &kp SPACE
+&mod_mo_lo 5 1     &mkp MB1       &kp SPACE
 &mod_mo_mkp 7 MB2  &pmw_rotation  &mo 6
             >;
         };
