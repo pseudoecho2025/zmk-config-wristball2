@@ -77,6 +77,11 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        childa {
+            bindings = <&kp GRAVE>;
+            key-positions = <2 3>;
+        };
     };
 
     macros {
