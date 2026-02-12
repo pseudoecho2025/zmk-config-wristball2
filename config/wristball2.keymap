@@ -138,8 +138,8 @@
 
         FUNCTION {
             bindings = <
-&mod_mo_lt 5 0  &mkp MB1  &mod_mkp1 LCTRL MB2
-&trans          &trans    &trans
+&to 0   &mkp MB1  &mod_mkp1 LCTRL MB2
+&trans  &trans    &trans
             >;
         };
 
